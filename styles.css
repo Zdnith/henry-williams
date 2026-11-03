@@ -1,0 +1,131 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #0e131f;
+}
+
+/*CONTAINER*/
+#container {
+    margin: 30px;
+    background-color: #f4f0eb;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-right: solid 3px #a18a6b;
+    border-left: solid 3px #a18a6b;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #000000;
+    opacity: 65%
+}
+
+/*HEADER DIV*/
+#header {
+    clear: both;
+    text-align: center;
+}
+
+/*SUB-HEADING DIV*/
+#sub-heading {
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #65422d;
+    border: solid 3px #a18a6b;
+}
+
+/*MENU DIV*/
+#menu {
+    float: right;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+#menu button {
+    margin: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: solid 2px #65422d;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #a18a6b;
+    font-family: 'Courier New', Courier, monospace;
+    transition: opacity 0.4s;
+}
+#menu button:hover {
+    opacity: 40%;
+}
+
+/*MAIN DIV*/
+#main {
+    color: #ffffff;
+    width: fit-content;
+}
+
+/*FOOTER DIV*/
+#footer {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #65422d;
+    border: solid 3px #a18a6b;
+    clear: both;
+    text-align: center;
+}
+
+/*TEXT TAG STYLES*/
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#main p {
+    color: #322016;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 30px;
+}
+#menu p {
+    float: left;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: #a18a6b;
+}
+
+/*CLASS STYLES BEGIN*/
+.image-style {
+    width: 460px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    float: left;
+    border: double 4px #a18a6b;
+}
